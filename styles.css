@@ -40,3 +40,27 @@
 @media(max-width:700px){.experience-tags{column-gap:9px;row-gap:9px}.experience-tags span{padding:6px 10px}}
 
 .art-m3d{background:#e7ece7}
+
+/* Experience: full-width introduction and balanced two-column cards */
+#experience .experience-grid{display:block}
+#experience .experience-intro{max-width:780px;margin:0 0 30px;color:#c3d2c6;font-size:17px;line-height:1.7}
+#experience .experience-intro .small-rule{margin-bottom:17px}
+#experience .experience-intro p{margin:0}
+#experience .experience-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:stretch}
+#experience .experience-item{min-width:0;display:grid;grid-template-columns:34px minmax(0,1fr);gap:12px;padding:26px;border:1px solid #4a675a;border-radius:7px;background:rgba(255,255,255,.035)}
+#experience .experience-item:last-child{grid-column:1 / -1}
+#experience .experience-item p{line-height:1.75}
+#experience .experience-item h3{font-size:19px;line-height:1.4}
+#experience .experience-tags{margin-top:18px}
+.footer-inner{justify-content:space-between}
+@media(max-width:700px){
+  #experience .experience-intro{font-size:16px;margin-bottom:26px}
+  #experience .experience-items{grid-template-columns:1fr;gap:12px}
+  #experience .experience-item{padding:20px;grid-template-columns:28px minmax(0,1fr);gap:10px}
+  #experience .experience-item:last-child{grid-column:auto}
+  #experience .experience-item h3{font-size:17px}
+}
+@media print{
+  #experience .experience-items{display:block}
+  #experience .experience-item{break-inside:avoid;padding:12px;margin-bottom:10px;background:none;border-color:#bbb}
+}
