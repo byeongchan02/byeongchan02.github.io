@@ -19,3 +19,17 @@
 .art-cim,.art-laser{background:#e7ece7}
 @media(min-width:701px) and (max-width:1000px){.research-art{height:225px}}
 @media(max-width:700px){.research-art{height:220px}.art-label{font-size:9px}}
+
+/* Publications and experience detail updates */
+.pub-info h3 a{transition:color .2s}
+.pub-info h3 a:hover{color:var(--orange)}
+.pub-info .pub-authors{color:#465a4d;font-size:13px;line-height:1.65;margin:8px 0 3px}
+.pub-info .pub-authors strong{font-weight:700;color:var(--ink)}
+.pub-info .pub-citation{font-size:13px;color:#647469;margin:0 0 11px}
+.pub-info .pub-description{font-size:13px;color:#66766b;line-height:1.75;margin:8px 0 10px}
+.pub-doi{display:inline-block;font:500 11px/1.6 var(--mono);color:#326d57;overflow-wrap:anywhere;margin-top:3px}
+.pub-doi:hover{text-decoration:underline;color:var(--orange)}
+.experience-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:15px}
+.experience-tags span{border:1px solid #577365;border-radius:3px;color:#d1dfd3;padding:4px 8px;font:500 10px/1.6 var(--mono)}
+@media(max-width:700px){.pub-info .pub-description{font-size:12px}.pub-doi{font-size:10px}.experience-tags{gap:6px}}
+@media print{.experience-tags span{color:#333;border-color:#aaa}.pub-doi{color:#333}}
