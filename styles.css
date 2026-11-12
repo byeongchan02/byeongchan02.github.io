@@ -33,3 +33,10 @@
 .experience-tags span{border:1px solid #577365;border-radius:3px;color:#d1dfd3;padding:4px 8px;font:500 10px/1.6 var(--mono)}
 @media(max-width:700px){.pub-info .pub-description{font-size:12px}.pub-doi{font-size:10px}.experience-tags{gap:6px}}
 @media print{.experience-tags span{color:#333;border-color:#aaa}.pub-doi{color:#333}}
+
+/* Experience keyword spacing fix */
+.experience-tags{display:flex;flex-wrap:wrap;column-gap:12px;row-gap:10px;align-items:center;margin-top:18px}
+.experience-tags span{display:inline-flex;align-items:center;white-space:normal;padding:6px 12px;line-height:1.55}
+@media(max-width:700px){.experience-tags{column-gap:9px;row-gap:9px}.experience-tags span{padding:6px 10px}}
+
+.art-m3d{background:#e7ece7}
