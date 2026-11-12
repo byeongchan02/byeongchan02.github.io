@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" role="img" aria-labelledby="ttl"><title id="ttl">ferroelectric-device</title><style>text{font-family:Arial,Helvetica,sans-serif;fill:#253b32} .tiny{font-size:10px;fill:#607669}.small{font-size:12px}.mid{font-size:13px;font-weight:700}.heading{font-size:16px;font-weight:700}.line{stroke:#526e61;stroke-width:1.5}.dash{stroke-dasharray:4 4}.tag{fill:#f7f7f3;stroke:#cedbd0} .muted{fill:#697e72}</style>
+<rect width="640" height="350" fill="#e7ede4"/>
+<text x="28" y="34" class="heading">HZO / IGZO FeTFT · MFMIS stack</text>
+<text x="28" y="53" class="tiny">Schematic · layer thicknesses are representative</text>
+<g transform="translate(54 72)">
+ <rect x="0" y="194" width="341" height="42" rx="4" fill="#d2d9d2" stroke="#9eafa4"/><text x="170" y="220" text-anchor="middle" class="mid">SiO₂ / Si substrate</text>
+ <rect x="20" y="160" width="301" height="30" rx="3" fill="#536f63"/><text x="170" y="180" text-anchor="middle" fill="#fff" style="font:700 13px Arial">Bottom electrode (BE)</text>
+ <rect x="43" y="131" width="255" height="25" rx="2" fill="#d5a27e"/><text x="170" y="148" text-anchor="middle" class="small">Floating gate</text>
+ <rect x="43" y="105" width="255" height="22" rx="2" fill="#c1d6c6"/><text x="170" y="121" text-anchor="middle" class="small">ZrO₂ interlayer</text>
+ <rect x="43" y="70" width="255" height="31" rx="2" fill="#e6bfab"/><text x="170" y="90" text-anchor="middle" class="mid">HZO ferroelectric</text>
+ <rect x="43" y="42" width="255" height="24" rx="2" fill="#6d9684"/><text x="170" y="58" text-anchor="middle" style="font:700 12px Arial;fill:#fff">Top gate electrode</text>
+ <path d="M170 38V10" stroke="#405b4e" stroke-width="2"/><circle cx="170" cy="10" r="4" fill="#b5754e"/>
+</g>
+<g transform="translate(423 94)">
+ <rect x="0" y="0" width="187" height="190" rx="8" fill="#f8faf6" stroke="#d2ddd3"/>
+ <text x="16" y="25" class="mid">Device focus</text>
+ <circle cx="20" cy="53" r="4" fill="#b5754e"/><text x="33" y="57" class="small">Polarization switching</text>
+ <circle cx="20" cy="84" r="4" fill="#b5754e"/><text x="33" y="88" class="small">Memory window</text>
+ <circle cx="20" cy="115" r="4" fill="#b5754e"/><text x="33" y="119" class="small">Interface engineering</text>
+ <path d="M20 156H164" stroke="#b6c9b9" stroke-width="1.5"/><path d="M89 139V173" stroke="#b6c9b9" stroke-width="1.5"/>
+ <path d="M34 162C35 140 68 137 76 159S119 181 143 148" stroke="#527d69" stroke-width="3" fill="none"/>
+ <path d="M34 153C52 177 83 176 91 153S124 138 144 163" stroke="#bc7d57" stroke-width="3" fill="none"/>
+</g>
+</svg>

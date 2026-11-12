@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" role="img" aria-labelledby="ttl"><title id="ttl">rram-device</title><style>text{font-family:Arial,Helvetica,sans-serif;fill:#253b32} .tiny{font-size:10px;fill:#607669}.small{font-size:12px}.mid{font-size:13px;font-weight:700}.heading{font-size:16px;font-weight:700}.line{stroke:#526e61;stroke-width:1.5}.dash{stroke-dasharray:4 4}.tag{fill:#f7f7f3;stroke:#cedbd0} .muted{fill:#697e72}</style>
+<rect width="640" height="350" fill="#e8ece7"/>
+<text x="27" y="34" class="heading">Oxide-based RRAM · bipolar resistive switching</text>
+<text x="27" y="53" class="tiny">Conceptual MIM device and conductive-filament mechanism</text>
+<g transform="translate(55 91)">
+ <rect x="12" y="3" width="244" height="39" rx="5" fill="#5c8271"/><text x="135" y="28" text-anchor="middle" style="font:700 14px Arial;fill:white">Top electrode</text>
+ <rect x="12" y="46" width="244" height="112" rx="3" fill="#e8d3be" stroke="#cfae8d"/><text x="135" y="62" text-anchor="middle" class="small">Al₂O₃ switching layer</text>
+ <rect x="12" y="162" width="244" height="37" rx="4" fill="#607568"/><text x="135" y="186" text-anchor="middle" style="font:700 14px Arial;fill:white">Bottom electrode</text>
+ <path d="M130 46 C123 65 146 72 133 90 S122 119 133 140 L135 158" stroke="#b9744c" stroke-width="12" stroke-linecap="round" opacity=".30" fill="none"/>
+ <path d="M130 46 C123 65 146 72 133 90 S122 119 133 140 L135 158" stroke="#b9744c" stroke-width="4" stroke-linecap="round" fill="none"/>
+ <g fill="#b9744c"><circle cx="134" cy="90" r="8"/><circle cx="126" cy="121" r="6"/><circle cx="137" cy="151" r="7"/></g>
+ <text x="280" y="89" class="small">Conductive</text><text x="280" y="104" class="small">filament</text><path d="M271 107 154 113" stroke="#9f7658" stroke-width="1.5"/>
+</g>
+<g transform="translate(422 93)"><rect width="189" height="194" rx="8" fill="#f8faf6" stroke="#d2ddd3"/>
+ <text x="14" y="26" class="mid">SET / RESET</text>
+ <path d="M37 141V54M37 141H171" stroke="#8fa699" stroke-width="1.5" fill="none"/>
+ <path d="M45 129C60 117 78 94 87 85S94 63 118 55S142 49 164 49" fill="none" stroke="#51816b" stroke-width="3"/>
+ <path d="M45 129C58 121 82 116 97 109S128 103 144 85 156 65 164 55" fill="none" stroke="#b57955" stroke-width="3"/>
+ <text x="41" y="164" class="tiny">Illustrative I–V trends</text>
+ <circle cx="39" cy="179" r="3" fill="#51816b"/><text x="48" y="183" class="tiny">SET</text>
+ <circle cx="104" cy="179" r="3" fill="#b57955"/><text x="113" y="183" class="tiny">RESET</text></g>
+</svg>

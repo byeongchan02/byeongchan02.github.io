@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" role="img" aria-labelledby="ttl"><title id="ttl">oxide-tft</title><style>text{font-family:Arial,Helvetica,sans-serif;fill:#253b32} .tiny{font-size:10px;fill:#607669}.small{font-size:12px}.mid{font-size:13px;font-weight:700}.heading{font-size:16px;font-weight:700}.line{stroke:#526e61;stroke-width:1.5}.dash{stroke-dasharray:4 4}.tag{fill:#f7f7f3;stroke:#cedbd0} .muted{fill:#697e72}</style>
+<rect width="640" height="350" fill="#e5e9df"/>
+<text x="26" y="34" class="heading">Bottom-gate IGZO thin-film transistor</text>
+<text x="26" y="53" class="tiny">Cross-sectional device concept · not to scale</text>
+<g transform="translate(38 95)">
+ <rect x="0" y="153" width="365" height="54" rx="4" fill="#d4d9d1" stroke="#a9b9ab"/><text x="183" y="187" text-anchor="middle" class="mid">SiO₂ substrate</text>
+ <rect x="89" y="117" width="188" height="31" rx="2" fill="#557667"/><text x="183" y="138" text-anchor="middle" style="font:700 13px Arial;fill:white">Gate (metal)</text>
+ <rect x="30" y="93" width="305" height="19" rx="2" fill="#efefdf" stroke="#becbbd"/><text x="183" y="107" text-anchor="middle" class="small">Al₂O₃ dielectric</text>
+ <rect x="50" y="62" width="264" height="26" rx="2" fill="#9dc2b1" stroke="#739e88"/><text x="183" y="80" text-anchor="middle" class="mid">IGZO channel</text>
+ <rect x="50" y="28" width="86" height="29" rx="3" fill="#ca9473"/><text x="93" y="47" text-anchor="middle" class="mid">Source</text>
+ <rect x="228" y="28" width="86" height="29" rx="3" fill="#ca9473"/><text x="271" y="47" text-anchor="middle" class="mid">Drain</text>
+ <path d="M139 43H224" stroke="#4b7564" stroke-width="2" stroke-dasharray="6 5"/><path d="m218 36 8 7-8 7" fill="none" stroke="#4b7564" stroke-width="2"/>
+ <text x="183" y="19" text-anchor="middle" class="small">channel current I<tspan dy="3" font-size="9">D</tspan></text>
+</g>
+<g transform="translate(438 107)">
+ <rect width="179" height="158" rx="8" fill="#f8faf6" stroke="#d2ddd3"/>
+ <text x="14" y="24" class="mid">Electrical analysis</text>
+ <path d="M37 127V49M37 127H155" stroke="#7b9587" stroke-width="1.5" fill="none"/>
+ <path d="M41 120C80 120 79 113 94 84S130 57 151 54" stroke="#4f8b6d" stroke-width="3" fill="none"/>
+ <path d="M41 124C89 123 103 105 117 84S141 68 151 66" stroke="#bc7d57" stroke-width="2.5" fill="none"/>
+ <text x="93" y="145" class="tiny">Gate voltage</text><text x="17" y="48" class="tiny">I<tspan dy="2" font-size="8">D</tspan></text>
+</g>
+<text x="26" y="325" class="tiny">Applications: low-leakage logic · analog circuits · neuron circuits · BEOL integration</text>
+</svg>

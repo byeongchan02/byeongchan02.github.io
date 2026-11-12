@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 490" role="img" aria-labelledby="ttl"><title id="ttl">hero-technology</title><style>text{font-family:Arial,Helvetica,sans-serif;fill:#253b32} .tiny{font-size:10px;fill:#607669}.small{font-size:12px}.mid{font-size:13px;font-weight:700}.heading{font-size:16px;font-weight:700}.line{stroke:#526e61;stroke-width:1.5}.dash{stroke-dasharray:4 4}.tag{fill:#f7f7f3;stroke:#cedbd0} .muted{fill:#697e72}</style>
+<rect width="640" height="490" rx="16" fill="#edf2ec"/>
+<text x="32" y="44" class="heading">FROM MATERIAL STACKS TO INTELLIGENT SYSTEMS</text>
+<text x="32" y="65" class="tiny">Device fabrication  /  Circuit integration  /  Hardware-aware computing</text>
+<g transform="translate(26 105)">
+ <rect x="0" y="0" width="180" height="263" rx="11" class="tag"/>
+ <text x="17" y="29" class="mid">01 · DEVICE</text>
+ <rect x="27" y="70" width="127" height="21" fill="#668a79"/>
+ <rect x="27" y="95" width="127" height="25" fill="#e0b49b"/>
+ <rect x="27" y="124" width="127" height="16" fill="#bed1c2"/>
+ <rect x="27" y="144" width="127" height="22" fill="#cc9773"/>
+ <rect x="27" y="170" width="127" height="25" fill="#526d60"/>
+ <text x="90" y="223" text-anchor="middle" class="small">Functional stacks</text>
+ <text x="90" y="240" text-anchor="middle" class="tiny">HZO · Oxides · RRAM</text>
+</g>
+<path d="M211 234H238" stroke="#b47855" stroke-width="3"/><path d="m231 228 8 6-8 6" fill="none" stroke="#b47855" stroke-width="2"/>
+<g transform="translate(244 105)">
+ <rect x="0" y="0" width="164" height="263" rx="11" class="tag"/>
+ <text x="15" y="29" class="mid">02 · CIRCUIT</text>
+ <g stroke="#719684" stroke-width="4" stroke-linecap="round"><path d="M25 83H140M25 124H140M25 165H140"/><path d="M42 61V190M81 61V190M120 61V190"/></g>
+ <g fill="#c58b68" stroke="#506c5c" stroke-width="1.5"><rect x="34" y="75" width="16" height="16" rx="3"/><rect x="73" y="116" width="16" height="16" rx="3"/><rect x="112" y="157" width="16" height="16" rx="3"/><rect x="112" y="75" width="16" height="16" rx="3"/></g>
+ <text x="82" y="223" text-anchor="middle" class="small">Memory arrays</text>
+ <text x="82" y="240" text-anchor="middle" class="tiny">Model · Map · Optimize</text>
+</g>
+<path d="M412 234H439" stroke="#b47855" stroke-width="3"/><path d="m432 228 8 6-8 6" fill="none" stroke="#b47855" stroke-width="2"/>
+<g transform="translate(445 105)">
+ <rect x="0" y="0" width="167" height="263" rx="11" class="tag"/>
+ <text x="14" y="29" class="mid">03 · SYSTEM</text>
+ <path d="M24 181H142M24 181V68" stroke="#83a292" stroke-width="1.5"/>
+ <path d="M30 160C46 142 61 138 73 116 S105 96 126 75S133 71 138 69" stroke="#608e75" stroke-width="3.5" fill="none"/>
+ <path d="M30 158C52 154 64 145 74 134S104 125 138 107" stroke="#bf7f58" stroke-width="3" fill="none"/>
+ <text x="83" y="223" text-anchor="middle" class="small">Robust computing</text>
+ <text x="83" y="240" text-anchor="middle" class="tiny">Energy · Reliability</text>
+</g>
+<rect x="89" y="404" width="462" height="40" rx="19" fill="#dfe9df" stroke="#c3d4c4"/>
+<text x="320" y="429" text-anchor="middle" class="mid">BEOL-compatible &amp; monolithic 3D integration</text>
+</svg>
