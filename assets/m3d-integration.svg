@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" role="img" aria-labelledby="ttl">
+<title id="ttl">monolithic-3d-integration</title>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#253b32}.tiny{font-size:10px;fill:#607669}.small{font-size:12px}.mid{font-size:13px;font-weight:700}.heading{font-size:16px;font-weight:700}.line{stroke:#526e61;stroke-width:1.5}.dash{stroke-dasharray:4 4}.tag{fill:#f7f7f3;stroke:#cedbd0}.muted{fill:#697e72}</style>
+<rect width="640" height="350" fill="#e7ece7"/>
+<text x="27" y="34" class="heading">Monolithic 3D integration · CMOS + BEOL devices</text>
+<text x="27" y="53" class="tiny">Conceptual cross-section · sequentially integrated device tiers · not to scale</text>
+<!-- Cross-sectional semiconductor stack, shared graphic grammar with the other cards -->
+<g transform="translate(44 81)">
+  <rect x="7" y="217" width="347" height="35" rx="4" fill="#c9d3c9" stroke="#9bad9e"/>
+  <text x="181" y="239" text-anchor="middle" class="mid">Si substrate</text>
+  <!-- Bottom transistor layer -->
+  <rect x="17" y="164" width="327" height="48" rx="3" fill="#d4ded5" stroke="#8ca897"/>
+  <rect x="42" y="174" width="53" height="15" rx="2" fill="#688978"/><rect x="122" y="174" width="53" height="15" rx="2" fill="#688978"/><rect x="202" y="174" width="53" height="15" rx="2" fill="#688978"/><rect x="282" y="174" width="42" height="15" rx="2" fill="#688978"/>
+  <path d="M58 174v-10m80 10v-10m80 10v-10m82 10v-10" stroke="#44695a" stroke-width="3"/>
+  <text x="180" y="206" text-anchor="middle" class="small">FEOL silicon CMOS</text>
+  <!-- Interconnect layer -->
+  <rect x="17" y="112" width="327" height="47" rx="3" fill="#edf1e9" stroke="#9fb5a5"/>
+  <path d="M31 146H330M31 125H330" stroke="#87a696" stroke-width="4"/>
+  <g fill="#b87553" stroke="#976344" stroke-width=".6"><rect x="51" y="125" width="10" height="21" rx="1"/><rect x="117" y="125" width="10" height="21" rx="1"/><rect x="183" y="125" width="10" height="21" rx="1"/><rect x="249" y="125" width="10" height="21" rx="1"/><rect x="305" y="125" width="10" height="21" rx="1"/></g>
+  <text x="180" y="107" text-anchor="middle" class="tiny">Vertical interconnects / BEOL wiring</text>
+  <!-- Upper oxide device tier -->
+  <rect x="17" y="50" width="327" height="52" rx="3" fill="#d6e5d8" stroke="#94b3a1"/>
+  <path d="M31 86H329" stroke="#8ba999" stroke-width="3"/>
+  <g fill="#537a68"><rect x="42" y="60" width="40" height="18" rx="2"/><rect x="97" y="60" width="40" height="18" rx="2"/><rect x="152" y="60" width="40" height="18" rx="2"/><rect x="207" y="60" width="40" height="18" rx="2"/><rect x="262" y="60" width="40" height="18" rx="2"/></g>
+  <text x="181" y="46" text-anchor="middle" class="mid">BEOL thin-film device tier</text>
+  <!-- connection cues -->
+  <g stroke="#b87553" stroke-width="3" fill="none" stroke-linecap="round"><path d="M56 78V97"/><path d="M122 78V97"/><path d="M188 78V97"/><path d="M254 78V97"/><path d="M310 78V97"/></g>
+  <path d="M5 50V212" stroke="#b87553" stroke-width="1.6" stroke-dasharray="4 4"/>
+</g>
+<!-- Insight panel, like laser and transistor assets -->
+<g transform="translate(425 92)">
+ <rect width="188" height="196" rx="8" fill="#f8faf6" stroke="#d2ddd3"/>
+ <text x="15" y="27" class="mid">Integration concept</text>
+ <rect x="15" y="43" width="158" height="33" rx="4" fill="#d6e5d8" stroke="#a6c2af"/>
+ <text x="94" y="64" text-anchor="middle" class="small">Oxide TFT / memory</text>
+ <path d="M94 78V101" stroke="#b87553" stroke-width="2" stroke-dasharray="4 3"/><path d="m88 96 6 7 6-7" fill="none" stroke="#b87553" stroke-width="2"/>
+ <rect x="15" y="104" width="158" height="33" rx="4" fill="#e3e9e1" stroke="#bac8bc"/>
+ <text x="94" y="125" text-anchor="middle" class="small">Silicon CMOS logic</text>
+ <text x="15" y="157" class="tiny">Sequential device stacking</text>
+ <text x="15" y="172" class="tiny">Dense vertical connectivity</text>
+ <text x="15" y="187" class="tiny">Low-temperature BEOL focus</text>
+</g>
+</svg>
